@@ -1,6 +1,9 @@
-#Python 
+# Python 
 sudo -i apt-get install python3
 sudo apt install python3-pip
+
+python3 --version
+pip3 --version
 
 # Python Packages
 
@@ -13,18 +16,25 @@ pip3 install sklearn --user
 pip3 install tensorflow-cpu --user
 pip3 install keras --user
 
-#JavaScript
+# JavaScript
 sudo apt-get install nodejs
 npm install -g @vue/cli
 
-#Java
+# Java
 sudo apt install default-jre
 sudo apt install default-jdk
 java -version
 javac -version
 
-#Golang
+# Golang
 sudo apt install golang
+
+# C (GCC compiler)
+sudo apt install gcc
+gcc --version
+
+#C (g++ compiler)
+sudo apt install build-essential
 
 # Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
