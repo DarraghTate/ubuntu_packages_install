@@ -7,7 +7,7 @@ pip3 --version
 
 # Python Packages
 
-#pip3 install numpy --user
+# pip3 install numpy --user
 pip3 install django --user
 pip3 install scipi --user
 pip3 install nltk --user
@@ -33,8 +33,12 @@ sudo apt install golang
 sudo apt install gcc
 gcc --version
 
-#C (g++ compiler)
+# C (g++ compiler)
 sudo apt install build-essential
+
+# Rust
+curl https://sh.rustup.rs -sSf | sh
+source $HOME/.cargo/env
 
 # x86 Assembly
 sudo apt install nasm
